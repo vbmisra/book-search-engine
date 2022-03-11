@@ -45,7 +45,7 @@ const LoginForm = () => {
 
       console.log(loginData)
       Auth.login(loginData.login.token)
-    } catch (error) {
+    } catch (err) {
       console.error(err)
     }
 
